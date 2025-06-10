@@ -407,7 +407,8 @@ AddEmote("The Weeknd Starboy Strut", "130245358716273", 150)
 AddEmote("The Weeknd Opening Night", "105098895743105", 100)
 AddEmote("M3GAN's Dance", "127271798262177", 140)
 AddEmote("Robot M3GAN", "90569436057900", 0)
-AddEmote("DearALICE - Ariana", "133765015173412", 125
+AddEmote("DearALICE - Ariana", "133765015173412", 125)
+
 
 
 --Free Emote
