@@ -401,16 +401,28 @@ end
 
 
 
---All emotes
+
+-- New Emotes
+AddEmote("The Weeknd Starboy Strut", "130245358716273", 150)
+AddEmote("The Weeknd Opening Night", "105098895743105", 100)
+AddEmote("M3GAN's Dance", "127271798262177", 140)
+AddEmote("Robot M3GAN", "90569436057900", 0)
+AddEmote("DearALICE - Ariana", "133765015173412", 125
+
+
+--Free Emote
 AddEmote("Point2", "3576823880", 0)
 AddEmote("Shrug", "3576968026", 0)
 AddEmote("Hello", "3576686446", 0)
 AddEmote("Stadium", "3360686498", 0)
+AddEmote("Tilt", "3360692915", 0)
+
+
 AddEmote("Hype Dance", "3696757129", nil)
 AddEmote("Monkey", "3716636630", 50)
 AddEmote("Curtsy", "4646306583", 50)
 AddEmote("Salute", "3360689775", 0)
-AddEmote("Tilt", "3360692915", 0)
+
 AddEmote("Happy", "4849499887", 50)
 AddEmote("Godlike", "3823158750", 80)
 AddEmote("TWICE The Feels", "12874468267", 0)
