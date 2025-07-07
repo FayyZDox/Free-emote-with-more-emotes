@@ -1,6 +1,10 @@
 --- Keybind to open for pc is "comma" -> " , "
 -- Made by Gi#7331
 
+if getgenv().Emotesbruh == true then
+return end
+getgenv().Emotesbruh = true
+
 game:GetService("StarterGui"):SetCore("SendNotification",{
                 Title = "Wait!",
                 Text = "Please Wait, it just loading the button",
@@ -242,6 +246,7 @@ CloseButton.BackgroundTransparency = 0.3
 CloseButton.Text = "Kill Gui"
 CloseButton.MouseButton1Click:Connect(function()
 	ScreenGui:Destroy()
+	getgenv().Emotesbruh = false
 end)
 Corner:Clone().Parent = CloseButton
 CloseButton.Parent = BackFrame
@@ -397,10 +402,10 @@ local function WaitForChildOfClass(parent, class)
 	end
 	return child
 end
-
-
-
-
+AddEmote("Thanos Happy Jump - Squid Game", 82217023310738, 150)
+AddEmote("Rasputin – Boney M.", 133477296392756, 100)
+AddEmote("Young-hee Head Spin - Squid Game", 134615135651900, 150)
+AddEmote("TWICE Takedown", 94796833553521, 100)
 AddEmote("Salute", 3360689775, 0)
 AddEmote("Applaud", 5915779043, 0)
 AddEmote("Tilt", 3360692915, 0)
@@ -501,7 +506,7 @@ AddEmote("NBA Monster Dunk", 117511481049460, 200)
 AddEmote("Paris Hilton Sanasa", 16126526506, 100)
 AddEmote("Mae Stephens – Arm Wave", 16584496781, 50)
 AddEmote("Imagine Dragons - “Bones” Dance", 15689314578, 50)
-AddEmote("GloRilla - 'Tomorrow' Dance", 15689315657, 50)
+AddEmote("GloRilla - \"Tomorrow\" Dance", 15689315657, 50)
 AddEmote("Uprise - Tommy Hilfiger", 10275057230, 170)
 AddEmote("Elton John - Elevate", 11394056822, 400)
 AddEmote("TWICE I GOT YOU part 2", 16256253954, 100)
